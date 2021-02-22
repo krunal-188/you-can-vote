@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    include("home.html");
     require("config.php");
     $radio=0;
     $sql = "SELECT candidate.name FROM candidate,voter where voter.zone=candidate.zone;";
